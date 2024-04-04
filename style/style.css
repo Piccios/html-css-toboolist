@@ -28,8 +28,10 @@ h2{
 
 p{
     margin-bottom: 20px;
-    font-weight: bold;
+}
 
+.list-item{
+    font-weight: bold;
 }
 
 .box-1{
@@ -73,6 +75,7 @@ p{
     background-color: rgb(50, 172, 243); 
     padding: 0px 10px; 
     border-radius: 20% 20% 20% 20%;
+    margin-left: 15px;
 }
 
 .font-white{
