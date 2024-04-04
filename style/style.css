@@ -21,6 +21,7 @@ h1{
     display: inline;
     vertical-align: middle;
 }
+
 h2{
     margin-top: 20px;
     font-weight: 800;
@@ -57,6 +58,7 @@ p{
     margin: 4px 2px;
     cursor: pointer;
 }
+
 .button-add{
     border: solid rgb(190, 190, 190);
     background-color: white ;
@@ -81,6 +83,7 @@ p{
 .font-white{
     color: white;
     box-sizing: border-box;
+    font-weight: 400;
 }
 
 .box-2{
