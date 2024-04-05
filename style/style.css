@@ -81,11 +81,37 @@ p{
     padding: .33rem .77rem;
 }
 
-.tag{ 
-    background-color: rgb(50, 172, 243); 
-    padding: 0px 10px; 
-    border-radius: 20% 20% 20% 20%;
+.tag{  
+    padding: 2px 10px; 
+    border-radius: 0.5rem;
     margin-left: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+.tag-blue{
+    background-color: rgb(50, 172, 243);
+
+}
+
+.tag-green{
+    background-color: rgb(91, 180, 91);
+
+}
+
+.tag-orange{
+    background-color: rgb(252, 192, 81);
+
+}
+
+.tag-pink{
+    background-color: rgb(201, 133, 144);
+
+}
+
+.tag-purple{
+    background-color: rgb(223, 114, 223);
+    
 }
 
 .font-white{
