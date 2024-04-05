@@ -9,17 +9,25 @@ body{
     background-color: rgb(245, 244, 244)
 }
 
+.display-inline-block{
+    display: inline-block;
+}
+
+.vertical-aligne-middle{
+    vertical-align: middle;
+}
+
 header{
     background-color: white;
-    padding: 1rem 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 
 h1{
     font-weight: bolder;
     font-size: 2rem;
-    display: inline;
-    vertical-align: middle;
 }
 
 h2{
@@ -46,31 +54,31 @@ p{
 }
 
 .button-task{
-    border: none;
+    border: solid rgb(50, 172, 243) 1px;
     background-color: rgb(50, 172, 243) ;
     color: white;
-    border-radius: 10% 10% 10% 10%;
-    padding: 15px 32px;
+    border-radius: .33rem;
     text-align: center;
     text-decoration: none;
     display: center;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    padding: .33rem .77rem;
 }
 
 .button-add{
-    border: solid rgb(190, 190, 190);
+    border: solid rgb(190, 190, 190) 1px;
     background-color: white ;
     color: rgb(190, 190, 190);
-    border-radius: 10% 10% 10% 10%;
-    padding: 10px;
+    border-radius: .33rem;
     text-align: center;
     text-decoration: none;
     display: center;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    padding: .33rem .77rem;
 }
 
 .tag{ 
